@@ -1,0 +1,943 @@
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[2024-05-15 05:18:36 +0000] [4797] [INFO] Starting gunicorn 21.2.0
+[2024-05-15 05:18:36 +0000] [4797] [INFO] Listening at: http://0.0.0.0:7861 (4797)
+[2024-05-15 05:18:36 +0000] [4797] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-05-15 05:18:36 +0000] [4798] [INFO] Booting worker with pid: 4798
+[2024-05-15 05:18:36 +0000] [4800] [INFO] Booting worker with pid: 4800
+[2024-05-15 05:18:36 +0000] [4801] [INFO] Booting worker with pid: 4801
+[2024-05-15 05:18:36 +0000] [4802] [INFO] Booting worker with pid: 4802
+[2024-05-15 05:18:40 +0000] [4798] [INFO] Started server process [4798]
+[2024-05-15 05:18:40 +0000] [4798] [INFO] Waiting for application startup.
+[2024-05-15 05:18:40 +0000] [4798] [INFO] Application startup complete.
+[2024-05-15 05:18:40 +0000] [4801] [INFO] Started server process [4801]
+[2024-05-15 05:18:40 +0000] [4801] [INFO] Waiting for application startup.
+[2024-05-15 05:18:40 +0000] [4801] [INFO] Application startup complete.
+[2024-05-15 05:18:40 +0000] [4800] [INFO] Started server process [4800]
+[2024-05-15 05:18:40 +0000] [4800] [INFO] Waiting for application startup.
+[2024-05-15 05:18:40 +0000] [4800] [INFO] Application startup complete.
+[2024-05-15 05:18:40 +0000] [4802] [INFO] Started server process [4802]
+[2024-05-15 05:18:40 +0000] [4802] [INFO] Waiting for application startup.
+[2024-05-15 05:18:40 +0000] [4802] [INFO] Application startup complete.
+[2024-05-15 05:19:01 +0000] [4797] [INFO] Handling signal: int
+[2024-05-15 05:19:01 +0000] [4798] [INFO] Shutting down
+[2024-05-15 05:19:01 +0000] [4798] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-15 05:19:01 +0000] [4802] [INFO] Shutting down
+[2024-05-15 05:19:01 +0000] [4802] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-15 05:19:01 +0000] [4800] [INFO] Shutting down
+[2024-05-15 05:19:01 +0000] [4800] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-15 05:19:02 +0000] [4801] [INFO] Shutting down
+[2024-05-15 05:19:02 +0000] [4801] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-15 05:19:02 +0000] [4798] [INFO] Waiting for application shutdown.
+[2024-05-15 05:19:02 +0000] [4798] [INFO] Application shutdown complete.
+[2024-05-15 05:19:02 +0000] [4798] [INFO] Finished server process [4798]
+[2024-05-15 05:19:02 +0000] [4802] [INFO] Waiting for application shutdown.
+[2024-05-15 05:19:02 +0000] [4802] [INFO] Application shutdown complete.
+[2024-05-15 05:19:02 +0000] [4802] [INFO] Finished server process [4802]
+[2024-05-15 05:19:02 +0000] [4797] [ERROR] Worker (pid:4798) was sent SIGINT!
+[2024-05-15 05:19:02 +0000] [4797] [ERROR] Worker (pid:4802) was sent SIGINT!
+[2024-05-15 05:19:02 +0000] [4800] [INFO] Waiting for application shutdown.
+[2024-05-15 05:19:02 +0000] [4800] [INFO] Application shutdown complete.
+[2024-05-15 05:19:02 +0000] [4800] [INFO] Finished server process [4800]
+[2024-05-15 05:19:02 +0000] [4797] [ERROR] Worker (pid:4800) was sent SIGINT!
+[2024-05-15 05:19:02 +0000] [4801] [INFO] Waiting for application shutdown.
+[2024-05-15 05:19:02 +0000] [4801] [INFO] Application shutdown complete.
+[2024-05-15 05:19:02 +0000] [4801] [INFO] Finished server process [4801]
+[2024-05-15 05:19:02 +0000] [4797] [ERROR] Worker (pid:4801) was sent SIGINT!
+[2024-05-15 05:19:02 +0000] [4797] [INFO] Shutting down: Master
+[2024-05-15 05:21:14 +0000] [4843] [INFO] Starting gunicorn 21.2.0
+[2024-05-15 05:21:14 +0000] [4843] [INFO] Listening at: http://0.0.0.0:7861 (4843)
+[2024-05-15 05:21:14 +0000] [4843] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-05-15 05:21:14 +0000] [4844] [INFO] Booting worker with pid: 4844
+[2024-05-15 05:21:14 +0000] [4845] [INFO] Booting worker with pid: 4845
+[2024-05-15 05:21:14 +0000] [4848] [INFO] Booting worker with pid: 4848
+[2024-05-15 05:21:14 +0000] [4849] [INFO] Booting worker with pid: 4849
+[2024-05-15 05:21:18 +0000] [4845] [INFO] Started server process [4845]
+[2024-05-15 05:21:18 +0000] [4845] [INFO] Waiting for application startup.
+[2024-05-15 05:21:18 +0000] [4845] [INFO] Application startup complete.
+[2024-05-15 05:21:18 +0000] [4844] [INFO] Started server process [4844]
+[2024-05-15 05:21:18 +0000] [4844] [INFO] Waiting for application startup.
+[2024-05-15 05:21:18 +0000] [4844] [INFO] Application startup complete.
+[2024-05-15 05:21:19 +0000] [4849] [INFO] Started server process [4849]
+[2024-05-15 05:21:19 +0000] [4849] [INFO] Waiting for application startup.
+[2024-05-15 05:21:19 +0000] [4849] [INFO] Application startup complete.
+[2024-05-15 05:21:19 +0000] [4848] [INFO] Started server process [4848]
+[2024-05-15 05:21:19 +0000] [4848] [INFO] Waiting for application startup.
+[2024-05-15 05:21:19 +0000] [4848] [INFO] Application startup complete.
+[2024-05-15 05:21:42 +0000] [4843] [INFO] Handling signal: int
+[2024-05-15 05:21:42 +0000] [4849] [INFO] Shutting down
+[2024-05-15 05:21:42 +0000] [4849] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-15 05:21:42 +0000] [4845] [INFO] Shutting down
+[2024-05-15 05:21:42 +0000] [4845] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-15 05:21:42 +0000] [4848] [INFO] Shutting down
+[2024-05-15 05:21:42 +0000] [4848] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-15 05:21:42 +0000] [4844] [INFO] Shutting down
+[2024-05-15 05:21:42 +0000] [4844] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-15 05:21:42 +0000] [4849] [INFO] Waiting for application shutdown.
+[2024-05-15 05:21:42 +0000] [4849] [INFO] Application shutdown complete.
+[2024-05-15 05:21:42 +0000] [4849] [INFO] Finished server process [4849]
+[2024-05-15 05:21:42 +0000] [4845] [INFO] Waiting for application shutdown.
+[2024-05-15 05:21:42 +0000] [4845] [INFO] Application shutdown complete.
+[2024-05-15 05:21:42 +0000] [4845] [INFO] Finished server process [4845]
+[2024-05-15 05:21:42 +0000] [4843] [ERROR] Worker (pid:4849) was sent SIGINT!
+[2024-05-15 05:21:42 +0000] [4843] [ERROR] Worker (pid:4845) was sent SIGINT!
+[2024-05-15 05:21:42 +0000] [4848] [INFO] Waiting for application shutdown.
+[2024-05-15 05:21:42 +0000] [4848] [INFO] Application shutdown complete.
+[2024-05-15 05:21:42 +0000] [4848] [INFO] Finished server process [4848]
+[2024-05-15 05:21:42 +0000] [4844] [INFO] Waiting for application shutdown.
+[2024-05-15 05:21:42 +0000] [4844] [INFO] Application shutdown complete.
+[2024-05-15 05:21:42 +0000] [4844] [INFO] Finished server process [4844]
+[2024-05-15 05:21:42 +0000] [4843] [ERROR] Worker (pid:4848) was sent SIGINT!
+[2024-05-15 05:21:42 +0000] [4843] [ERROR] Worker (pid:4844) was sent SIGINT!
+[2024-05-15 05:21:42 +0000] [4843] [INFO] Shutting down: Master
+[2024-05-15 05:22:12 +0000] [4865] [INFO] Starting gunicorn 21.2.0
+[2024-05-15 05:22:12 +0000] [4865] [INFO] Listening at: http://0.0.0.0:7861 (4865)
+[2024-05-15 05:22:12 +0000] [4865] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-05-15 05:22:12 +0000] [4866] [INFO] Booting worker with pid: 4866
+[2024-05-15 05:22:12 +0000] [4867] [INFO] Booting worker with pid: 4867
+[2024-05-15 05:22:12 +0000] [4868] [INFO] Booting worker with pid: 4868
+[2024-05-15 05:22:12 +0000] [4869] [INFO] Booting worker with pid: 4869
+[2024-05-15 05:22:16 +0000] [4866] [INFO] Started server process [4866]
+[2024-05-15 05:22:16 +0000] [4866] [INFO] Waiting for application startup.
+[2024-05-15 05:22:16 +0000] [4866] [INFO] Application startup complete.
+[2024-05-15 05:22:16 +0000] [4867] [INFO] Started server process [4867]
+[2024-05-15 05:22:16 +0000] [4867] [INFO] Waiting for application startup.
+[2024-05-15 05:22:16 +0000] [4867] [INFO] Application startup complete.
+[2024-05-15 05:22:16 +0000] [4869] [INFO] Started server process [4869]
+[2024-05-15 05:22:16 +0000] [4869] [INFO] Waiting for application startup.
+[2024-05-15 05:22:16 +0000] [4869] [INFO] Application startup complete.
+[2024-05-15 05:22:16 +0000] [4868] [INFO] Started server process [4868]
+[2024-05-15 05:22:16 +0000] [4868] [INFO] Waiting for application startup.
+[2024-05-15 05:22:16 +0000] [4868] [INFO] Application startup complete.
+[2024-05-15 05:29:12 +0000] [4900] [INFO] Starting gunicorn 21.2.0
+[2024-05-15 05:29:12 +0000] [4900] [INFO] Listening at: http://0.0.0.0:7861 (4900)
+[2024-05-15 05:29:12 +0000] [4900] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-05-15 05:29:12 +0000] [4901] [INFO] Booting worker with pid: 4901
+[2024-05-15 05:29:12 +0000] [4902] [INFO] Booting worker with pid: 4902
+[2024-05-15 05:29:12 +0000] [4904] [INFO] Booting worker with pid: 4904
+[2024-05-15 05:29:12 +0000] [4905] [INFO] Booting worker with pid: 4905
+[2024-05-15 05:29:16 +0000] [4901] [INFO] Started server process [4901]
+[2024-05-15 05:29:16 +0000] [4901] [INFO] Waiting for application startup.
+[2024-05-15 05:29:16 +0000] [4901] [INFO] Application startup complete.
+[2024-05-15 05:29:16 +0000] [4902] [INFO] Started server process [4902]
+[2024-05-15 05:29:16 +0000] [4902] [INFO] Waiting for application startup.
+[2024-05-15 05:29:16 +0000] [4902] [INFO] Application startup complete.
+[2024-05-15 05:29:17 +0000] [4905] [INFO] Started server process [4905]
+[2024-05-15 05:29:17 +0000] [4905] [INFO] Waiting for application startup.
+[2024-05-15 05:29:17 +0000] [4905] [INFO] Application startup complete.
+[2024-05-15 05:29:17 +0000] [4904] [INFO] Started server process [4904]
+[2024-05-15 05:29:17 +0000] [4904] [INFO] Waiting for application startup.
+[2024-05-15 05:29:17 +0000] [4904] [INFO] Application startup complete.
+[2024-05-15 05:29:30 +0000] [4901] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:30:41 +0000] [4926] [INFO] Starting gunicorn 21.2.0
+[2024-05-15 05:30:41 +0000] [4926] [INFO] Listening at: http://0.0.0.0:7861 (4926)
+[2024-05-15 05:30:41 +0000] [4926] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-05-15 05:30:41 +0000] [4927] [INFO] Booting worker with pid: 4927
+[2024-05-15 05:30:41 +0000] [4928] [INFO] Booting worker with pid: 4928
+[2024-05-15 05:30:41 +0000] [4929] [INFO] Booting worker with pid: 4929
+[2024-05-15 05:30:41 +0000] [4930] [INFO] Booting worker with pid: 4930
+[2024-05-15 05:30:45 +0000] [4928] [INFO] Started server process [4928]
+[2024-05-15 05:30:45 +0000] [4928] [INFO] Waiting for application startup.
+[2024-05-15 05:30:45 +0000] [4928] [INFO] Application startup complete.
+[2024-05-15 05:30:45 +0000] [4927] [INFO] Started server process [4927]
+[2024-05-15 05:30:45 +0000] [4927] [INFO] Waiting for application startup.
+[2024-05-15 05:30:45 +0000] [4927] [INFO] Application startup complete.
+[2024-05-15 05:30:45 +0000] [4929] [INFO] Started server process [4929]
+[2024-05-15 05:30:45 +0000] [4930] [INFO] Started server process [4930]
+[2024-05-15 05:30:45 +0000] [4929] [INFO] Waiting for application startup.
+[2024-05-15 05:30:45 +0000] [4930] [INFO] Waiting for application startup.
+[2024-05-15 05:30:45 +0000] [4929] [INFO] Application startup complete.
+[2024-05-15 05:30:45 +0000] [4930] [INFO] Application startup complete.
+[2024-05-15 05:31:16 +0000] [4927] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:31:27 +0000] [4929] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:31:31 +0000] [4930] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:31:35 +0000] [4929] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:31:38 +0000] [4929] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:31:42 +0000] [4928] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:31:51 +0000] [4930] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:31:54 +0000] [4930] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:31:57 +0000] [4930] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:32:01 +0000] [4928] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:32:03 +0000] [4929] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/fast_api/main.py", line 67, in run
+    results = json.loads(llm_output) #{"error" : llm_output}
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-05-15 05:33:22 +0000] [4964] [INFO] Starting gunicorn 21.2.0
+[2024-05-15 05:33:22 +0000] [4964] [INFO] Listening at: http://0.0.0.0:7861 (4964)
+[2024-05-15 05:33:22 +0000] [4964] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-05-15 05:33:22 +0000] [4965] [INFO] Booting worker with pid: 4965
+[2024-05-15 05:33:22 +0000] [4966] [INFO] Booting worker with pid: 4966
+[2024-05-15 05:33:22 +0000] [4967] [INFO] Booting worker with pid: 4967
+[2024-05-15 05:33:22 +0000] [4969] [INFO] Booting worker with pid: 4969
+[2024-05-15 05:33:26 +0000] [4966] [INFO] Started server process [4966]
+[2024-05-15 05:33:26 +0000] [4966] [INFO] Waiting for application startup.
+[2024-05-15 05:33:26 +0000] [4966] [INFO] Application startup complete.
+[2024-05-15 05:33:26 +0000] [4965] [INFO] Started server process [4965]
+[2024-05-15 05:33:26 +0000] [4965] [INFO] Waiting for application startup.
+[2024-05-15 05:33:26 +0000] [4965] [INFO] Application startup complete.
+[2024-05-15 05:33:26 +0000] [4967] [INFO] Started server process [4967]
+[2024-05-15 05:33:26 +0000] [4967] [INFO] Waiting for application startup.
+[2024-05-15 05:33:26 +0000] [4967] [INFO] Application startup complete.
+[2024-05-15 05:33:26 +0000] [4969] [INFO] Started server process [4969]
+[2024-05-15 05:33:26 +0000] [4969] [INFO] Waiting for application startup.
+[2024-05-15 05:33:26 +0000] [4969] [INFO] Application startup complete.
+[2024-05-15 06:07:24 +0000] [4967] [WARNING] Invalid HTTP request received.
+[2024-05-15 06:07:24 +0000] [4965] [WARNING] Invalid HTTP request received.
+[2024-05-15 06:07:26 +0000] [4965] [WARNING] Invalid HTTP request received.
+[2024-05-15 06:07:26 +0000] [4969] [WARNING] Invalid HTTP request received.
+[2024-05-15 06:22:21 +0000] [4967] [WARNING] Invalid HTTP request received.
+[2024-05-15 06:22:22 +0000] [4967] [WARNING] Invalid HTTP request received.
+[2024-05-15 07:18:06 +0000] [4964] [INFO] Handling signal: hup
+[2024-05-15 07:18:06 +0000] [4964] [INFO] Hang up: Master
+[2024-05-15 07:18:06 +0000] [11367] [INFO] Booting worker with pid: 11367
+[2024-05-15 07:18:06 +0000] [11366] [INFO] Booting worker with pid: 11366
+[2024-05-15 07:18:06 +0000] [4964] [ERROR] Worker (pid:4965) was sent SIGHUP!
+[2024-05-15 07:18:06 +0000] [4964] [ERROR] Worker (pid:4969) was sent SIGHUP!
+[2024-05-15 07:18:06 +0000] [4964] [ERROR] Worker (pid:4967) was sent SIGHUP!
+[2024-05-15 07:18:06 +0000] [4964] [ERROR] Worker (pid:4966) was sent SIGHUP!
+[2024-05-15 07:18:06 +0000] [11372] [INFO] Booting worker with pid: 11372
+[2024-05-15 07:18:06 +0000] [11371] [INFO] Booting worker with pid: 11371
+[2024-05-15 07:18:10 +0000] [11372] [INFO] Started server process [11372]
+[2024-05-15 07:18:10 +0000] [11372] [INFO] Waiting for application startup.
+[2024-05-15 07:18:10 +0000] [11372] [INFO] Application startup complete.
+[2024-05-15 07:18:10 +0000] [11366] [INFO] Started server process [11366]
+[2024-05-15 07:18:10 +0000] [11366] [INFO] Waiting for application startup.
+[2024-05-15 07:18:10 +0000] [11366] [INFO] Application startup complete.
+[2024-05-15 07:18:10 +0000] [11371] [INFO] Started server process [11371]
+[2024-05-15 07:18:10 +0000] [11371] [INFO] Waiting for application startup.
+[2024-05-15 07:18:10 +0000] [11371] [INFO] Application startup complete.
+[2024-05-15 07:18:10 +0000] [11367] [INFO] Started server process [11367]
+[2024-05-15 07:18:10 +0000] [11367] [INFO] Waiting for application startup.
+[2024-05-15 07:18:10 +0000] [11367] [INFO] Application startup complete.
+[2024-05-15 07:43:17 +0000] [11372] [WARNING] Invalid HTTP request received.
+[2024-05-15 07:43:18 +0000] [11367] [WARNING] Invalid HTTP request received.
+[2024-05-15 07:49:38 +0000] [11367] [WARNING] Invalid HTTP request received.
+[2024-05-15 07:49:39 +0000] [11371] [WARNING] Invalid HTTP request received.
+[2024-05-15 07:50:38 +0000] [11371] [WARNING] Invalid HTTP request received.
+[2024-05-15 07:50:39 +0000] [11371] [WARNING] Invalid HTTP request received.
+[2024-05-15 08:35:06 +0000] [11367] [WARNING] Invalid HTTP request received.
+[2024-05-16 03:38:19 +0000] [4964] [INFO] Handling signal: term
+[2024-05-16 03:38:19 +0000] [11371] [INFO] Shutting down
+[2024-05-16 03:38:19 +0000] [11372] [INFO] Shutting down
+[2024-05-16 03:38:19 +0000] [11371] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-16 03:38:19 +0000] [11372] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-16 03:38:19 +0000] [11366] [INFO] Shutting down
+[2024-05-16 03:38:19 +0000] [11367] [INFO] Shutting down
+[2024-05-16 03:38:19 +0000] [11367] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-16 03:38:19 +0000] [11366] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2024-05-16 03:38:19 +0000] [11372] [INFO] Waiting for application shutdown.
+[2024-05-16 03:38:19 +0000] [11371] [INFO] Waiting for application shutdown.
+[2024-05-16 03:38:19 +0000] [11372] [INFO] Application shutdown complete.
+[2024-05-16 03:38:19 +0000] [11371] [INFO] Application shutdown complete.
+[2024-05-16 03:38:19 +0000] [11372] [INFO] Finished server process [11372]
+[2024-05-16 03:38:19 +0000] [11371] [INFO] Finished server process [11371]
+[2024-05-16 03:38:19 +0000] [11367] [INFO] Waiting for application shutdown.
+[2024-05-16 03:38:19 +0000] [11366] [INFO] Waiting for application shutdown.
+[2024-05-16 03:38:19 +0000] [11367] [INFO] Application shutdown complete.
+[2024-05-16 03:38:19 +0000] [11366] [INFO] Application shutdown complete.
+[2024-05-16 03:38:19 +0000] [11367] [INFO] Finished server process [11367]
+[2024-05-16 03:38:19 +0000] [11366] [INFO] Finished server process [11366]
+[2024-05-16 03:38:20 +0000] [4964] [ERROR] Worker (pid:11371) was sent SIGTERM!
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 516, in reap_workers
+    wpid, status = os.waitpid(-1, os.WNOHANG)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ubuntu/flask_application/myenv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 396, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/ubuntu/flask_application/myenv/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:11371) was sent SIGTERM!'
+Arguments: ()
+[2024-05-16 03:38:20 +0000] [4964] [ERROR] Worker (pid:11367) was sent SIGTERM!
+[2024-05-16 03:38:49 +0000] [4964] [INFO] Shutting down: Master
+
+Error: class uri 'uvicorn.workers.UvicornWorker' invalid or not found: 
+
+[Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 99, in load_class
+    mod = importlib.import_module('.'.join(components))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'uvicorn'
+]
+
+[2024-05-16 03:46:03 +0000] [13335] [INFO] Starting gunicorn 21.2.0
+[2024-05-16 03:46:03 +0000] [13335] [INFO] Listening at: http://0.0.0.0:7861 (13335)
+[2024-05-16 03:46:03 +0000] [13335] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-05-16 03:46:03 +0000] [13336] [INFO] Booting worker with pid: 13336
+[2024-05-16 03:46:03 +0000] [13337] [INFO] Booting worker with pid: 13337
+[2024-05-16 03:46:03 +0000] [13339] [INFO] Booting worker with pid: 13339
+[2024-05-16 03:46:03 +0000] [13340] [INFO] Booting worker with pid: 13340
+[2024-05-16 03:46:08 +0000] [13336] [INFO] Started server process [13336]
+[2024-05-16 03:46:08 +0000] [13336] [INFO] Waiting for application startup.
+[2024-05-16 03:46:08 +0000] [13336] [INFO] Application startup complete.
+[2024-05-16 03:46:08 +0000] [13337] [INFO] Started server process [13337]
+[2024-05-16 03:46:08 +0000] [13337] [INFO] Waiting for application startup.
+[2024-05-16 03:46:08 +0000] [13337] [INFO] Application startup complete.
+[2024-05-16 03:46:08 +0000] [13340] [INFO] Started server process [13340]
+[2024-05-16 03:46:08 +0000] [13340] [INFO] Waiting for application startup.
+[2024-05-16 03:46:08 +0000] [13340] [INFO] Application startup complete.
+[2024-05-16 03:46:08 +0000] [13339] [INFO] Started server process [13339]
+[2024-05-16 03:46:08 +0000] [13339] [INFO] Waiting for application startup.
+[2024-05-16 03:46:08 +0000] [13339] [INFO] Application startup complete.
+[2024-05-16 04:25:22 +0000] [13335] [INFO] Handling signal: hup
+[2024-05-16 04:25:22 +0000] [13335] [INFO] Hang up: Master
+[2024-05-16 04:25:22 +0000] [13814] [INFO] Booting worker with pid: 13814
+[2024-05-16 04:25:22 +0000] [13813] [INFO] Booting worker with pid: 13813
+[2024-05-16 04:25:22 +0000] [13816] [INFO] Booting worker with pid: 13816
+[2024-05-16 04:25:22 +0000] [13335] [ERROR] Worker (pid:13339) was sent SIGHUP!
+[2024-05-16 04:25:22 +0000] [13815] [INFO] Booting worker with pid: 13815
+[2024-05-16 04:25:22 +0000] [13335] [ERROR] Worker (pid:13336) was sent SIGHUP!
+[2024-05-16 04:25:22 +0000] [13335] [ERROR] Worker (pid:13340) was sent SIGHUP!
+[2024-05-16 04:25:22 +0000] [13335] [ERROR] Worker (pid:13337) was sent SIGHUP!
+[2024-05-16 04:25:26 +0000] [13815] [INFO] Started server process [13815]
+[2024-05-16 04:25:26 +0000] [13815] [INFO] Waiting for application startup.
+[2024-05-16 04:25:26 +0000] [13815] [INFO] Application startup complete.
+[2024-05-16 04:25:26 +0000] [13816] [INFO] Started server process [13816]
+[2024-05-16 04:25:26 +0000] [13816] [INFO] Waiting for application startup.
+[2024-05-16 04:25:26 +0000] [13816] [INFO] Application startup complete.
+[2024-05-16 04:25:26 +0000] [13814] [INFO] Started server process [13814]
+[2024-05-16 04:25:26 +0000] [13814] [INFO] Waiting for application startup.
+[2024-05-16 04:25:26 +0000] [13814] [INFO] Application startup complete.
+[2024-05-16 04:25:26 +0000] [13813] [INFO] Started server process [13813]
+[2024-05-16 04:25:26 +0000] [13813] [INFO] Waiting for application startup.
+[2024-05-16 04:25:26 +0000] [13813] [INFO] Application startup complete.
+[2024-05-16 05:43:46 +0000] [13335] [INFO] Handling signal: term
+[2024-05-16 05:43:46 +0000] [13335] [ERROR] Worker (pid:13815) was sent SIGHUP!
+[2024-05-16 05:43:46 +0000] [13335] [ERROR] Worker (pid:13813) was sent SIGHUP!
+[2024-05-16 05:43:46 +0000] [13335] [ERROR] Worker (pid:13814) was sent SIGHUP!
+[2024-05-16 05:43:46 +0000] [13335] [ERROR] Worker (pid:13816) was sent SIGHUP!
+[2024-05-16 05:43:46 +0000] [13335] [INFO] Shutting down: Master
